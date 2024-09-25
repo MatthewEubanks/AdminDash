@@ -1,10 +1,11 @@
 import React from 'react';
+import BackButton from '@/components/BackButton';
 
 function PostEditPage() {
     return (
-        <div>
-            Edit
-        </div>
+        <>
+            <BackButton text='Back To Posts' link='/posts'/>
+        </>
     );
 }
 
