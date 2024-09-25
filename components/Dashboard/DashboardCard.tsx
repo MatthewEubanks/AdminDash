@@ -8,7 +8,12 @@ interface DashboardCardProps {
     icon: React.ReactElement<LucideIcon>;
 }
 
-const DashboardCard = ({title, count, icon}: DashboardCardProps) => {
+/**
+ * 
+ * @param {DashboardCardProps} {title, count, icon}
+ * @return {*} 
+ */
+const DashboardCard = ({title, count, icon}: DashboardCardProps): any => {
   return (
     <Card className="bg-slate-100 dark:bg-slate-800 p-4 pb-0">
       <CardContent>
