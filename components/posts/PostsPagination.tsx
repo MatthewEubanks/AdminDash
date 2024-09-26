@@ -9,7 +9,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
-function PostsPagination(props) {
+function PostsPagination() {
   return (
     <Pagination>
       <PaginationContent>
